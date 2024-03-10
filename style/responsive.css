@@ -1,0 +1,139 @@
+body {
+    /* background-color: #060B24; */
+    background: linear-gradient(to bottom, #060B24 60%, #F45567, #FBC877);
+    color: white; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.bg2 {
+    position: absolute;
+    left: 10px;
+    width: 90%;
+    overflow: hidden;
+}
+  
+@keyframes blink {
+    0%   { opacity: 0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0; }
+}
+.stars-bg__star {
+    opacity: 0;
+    animation: blink 3s infinite;
+}
+.stars-bg__blink-2 {
+    animation-delay: 1s;
+}
+.stars-bg__blink-3 {
+    animation-delay: 2s;
+}
+
+.container .titulo {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    z-index: 1;
+}
+
+@keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 4px #021859,
+        0 0 11px #021859,
+        0 0 19px #021859,
+        0 0 40px #0455BF,
+        0 0 80px #0455BF,
+        0 0 90px #0455BF,
+        0 0 100px #0455BF,
+        0 0 150px #0455BF;
+    }
+    0% {
+      /* Smaller blur radius */
+      text-shadow:
+        0 0 2px #021859,
+        0 0 4px #021859,
+        0 0 6px #021859,
+        0 0 10px #0455BF,
+        0 0 45px #0455BF,
+        0 0 55px #0455BF,
+        0 0 70px #0455BF,
+        0 0 80px #0455BF;
+    }
+  }
+
+.container .titulo h1 {
+    font-family: 'Wasted Vindey', sans-serif;
+    font-size: 82px;
+    padding: 0;
+    margin-bottom: 0;
+    color: #0487D9;
+    text-shadow:
+        0 0 7px #021859,
+        0 0 10px #021859,
+        0 0 21px #021859,
+        0 0 42px #0455BF,
+        0 0 82px #0455BF,
+        0 0 92px #0455BF,
+        0 0 102px #0455BF,
+        0 0 151px #0455BF;
+    animation: pulsate 2.5s infinite alternate;   
+}
+
+.container .titulo p {
+    font-family: 'Simple Michael Italic', sans-serif;
+    font-size: 24px;
+    color: #F2AF5C;
+}
+
+.container .info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.container .info p{
+    font-family: poppins;
+    color: #fceec7;
+}
+
+.container .info ul{
+   padding: 0;
+   line-height: 1.5rem;
+}
+
+.container .info ul li{
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+    text-align: center;
+    font-family: poppins;
+}
+
+.container .info ul li a{
+    text-decoration: none;
+    color:#F2AF5C;
+}

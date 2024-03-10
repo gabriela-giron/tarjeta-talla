@@ -1,0 +1,18 @@
+.container .luna {
+    width: 150px;
+    height: 150px;
+    background-color: #fceec7; /* Color de fondo de la luna */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    position: relative;
+}
+
+.container .luna::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background-color: #fceec7; /* Color de relleno */
+    border-radius: 50%; /* cirulo de relleno */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

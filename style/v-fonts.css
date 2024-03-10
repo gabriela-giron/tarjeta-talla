@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Wasted Vindey';
+    src: url('../fonts/wasted-vindey.ttf'); /* Reemplaza 'ruta/a/tu/fuente.ttf' con la ruta a tu fuente instalada localmente */
+}
+
+@font-face {
+    font-family: 'Simple Michael Regular';
+    src: url('../fonts/Simple-Michael.otf'); /* Reemplaza 'ruta/a/tu/fuente.ttf' con la ruta a tu fuente instalada localmente */
+}
+
+@font-face {
+    font-family: 'Simple Michael Italic';
+    src: url('../fonts/Simple-Michael-Italic.otf'); /* Reemplaza 'ruta/a/tu/fuente.ttf' con la ruta a tu fuente instalada localmente */
+}
+
+@font-face {
+    font-family: 'Standerd Regular';
+    src: url('../fonts/Standerd-Regular.otf'); /* Reemplaza 'ruta/a/tu/fuente.ttf' con la ruta a tu fuente instalada localmente */
+}
+
