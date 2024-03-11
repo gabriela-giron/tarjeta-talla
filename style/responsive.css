@@ -122,18 +122,59 @@ html,body {
 
 .container .info{
     display: flex;
-    flex-direction: column;
     text-align: center;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
-.container .info p{
+.container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.container .text p{
+    font-family: poppins;
+    margin: 2rem;
+    text-align: center;
+    color: #fceec7;
+}
+
+.container .info {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: poppins;
     color: #fceec7;
 }
 
-.container .info ul{
+.container .info article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: poppins;
+    color: #fceec7;
+}
+
+.container .info article p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.container .info .icon-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    color: #fceec7;
+}
+
+/* .container .info ul{
    padding: 0;
    line-height: 1.5rem;
 }
@@ -149,4 +190,4 @@ html,body {
 .container .info ul li a{
     text-decoration: none;
     color:#F2AF5C;
-}
+} */
