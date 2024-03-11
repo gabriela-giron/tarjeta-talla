@@ -7,5 +7,4 @@
     border-radius: 50%; /* Forma circular */
     position: absolute;
     transition: all 0.05s ease; /* Transición suave */
-    z-index: 0;
 }
