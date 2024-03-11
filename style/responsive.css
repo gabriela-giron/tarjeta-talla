@@ -144,6 +144,8 @@ html,body {
 
 .container .info {
     margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
@@ -161,9 +163,26 @@ html,body {
     color: #fceec7;
 }
 
+.container .info .diferente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    color: #fceec7;
+}
+
+.container .info .diferente .icon-info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    color: #fceec7;
+}
+
 .container .info article p{
     text-align: center;
     margin: 2rem;
+    overflow: hidden;
 }
 
 .container .info .icon-info{
@@ -172,6 +191,12 @@ html,body {
     align-items: center;
     font-family: poppins;
     color: #fceec7;
+}
+
+.container .info h3{
+    font-family: 'Simple Michael Regular', sans-serif;
+    color: #F2AF5C;
+    font-size: 32px;
 }
 
 /* .container .info ul{
