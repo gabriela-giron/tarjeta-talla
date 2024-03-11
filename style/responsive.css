@@ -26,6 +26,7 @@ html,body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
     /* background: linear-gradient(to bottom, #060B24 60%, #F45567, #FBC877); */
 }
 
