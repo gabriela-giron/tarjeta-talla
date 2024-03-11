@@ -1,17 +1,32 @@
-body {
+html,body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #060B24;
+}
+
+/* body {
     /* background-color: #060B24; */
-    background: linear-gradient(to bottom, #060B24 60%, #F45567, #FBC877);
+    /* background: linear-gradient(to bottom, #060B24 60%, #F45567, #FBC877); 
     color: white; 
     margin: 0;
     padding: 0;
+    
+} */
+
+.container {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    /* background: linear-gradient(to bottom, #060B24 60%, #F45567, #FBC877); */
 }
 
 .bg {
